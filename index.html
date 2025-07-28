@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Currency Converter</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+	</head>
+	<body class="bg-gradient-to-br from-green-300 to-blue-500 min-h-screen flex items-center justify-center p-4">
+		<div class="bg-white rounded-2xl p-6 shadow-xl max-w-lg w-full">
+			<h1 class="text-2xl sm:text-3xl font-bold mb-6 text-center text-gray-800">Currency Converter</h1>
+
+			<div class="flex flex-col sm:flex-row sm:items-center sm:gap-2 mb-4">
+				<input id="amount" type="number" placeholder="Amount" class="flex-1 p-2 mb-2 sm:mb-0 border rounded focus:ring-2 focus:ring-blue-500" />
+
+				<input id="baseCurrency" type="text" placeholder="From (USD)" class="w-full sm:w-28 p-2 mb-2 sm:mb-0 border rounded focus:ring-2 focus:ring-blue-500" />
+
+				<input id="targetCurrency" type="text" placeholder="To (EUR)" class="w-full sm:w-28 p-2 border rounded focus:ring-2 focus:ring-blue-500" />
+			</div>
+
+			<button onclick="convertCurrency()" class="w-full bg-blue-600 text-white py-2 rounded font-semibold hover:bg-blue-700 transition">Convert</button>
+
+			<div id="result" class="mt-4 text-center text-xl font-semibold text-green-700"></div>
+
+			<div id="error" class="mt-2 text-red-600 text-center"></div>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>
