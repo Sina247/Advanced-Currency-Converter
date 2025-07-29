@@ -1,4 +1,4 @@
-# 💱 Currency Exchange Rate App
+# 💱 Currency Converter
 
 A modern and responsive currency exchange rate tracker built with **HTML**, **Tailwind CSS** and **JavaScript**, powered by a fast and reliable API.
 
