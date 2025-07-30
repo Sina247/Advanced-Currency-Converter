@@ -6,7 +6,7 @@ A modern and responsive currency exchange rate tracker built with **HTML**, **Ta
 
 ## 🚀 Features  
 - 🔄 **Live Exchange Rates** : Real-time updates from a high quality currency API.
-- 💱 **Multi Currency Support** : Track exchange rates for major world currencies. 
+- 💲 **Multi Currency Support** : Track exchange rates for major world currencies. 
 - 🎯 **User Friendly UI** : Clean and responsive design using Tailwind CSS.
 - 📱 **Fully Responsive** : Optimized for mobile, tablet and desktop.
 - ⚡ **Fast and Lightweight** : Minimal external dependencies.
